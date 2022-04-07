@@ -1,7 +1,7 @@
 function solution(A) {
     var n = A.length;
     var result = 0;
-    if(n == 1) return 0;
+    if(n == 1) return 0; // handle array only one element
     // count number of the same face Coin
     for (let i = 0; i < n - 1; i++) {
         if(A[i] == A[i + 1]) {
@@ -10,7 +10,7 @@ function solution(A) {
     }
     
     if(result == n - 1) {
-        return result - 1;
+        return result - 1; // handle array has two elements which same value [0, 0], [1, 1]
     }
     
     // for flip one Coin
