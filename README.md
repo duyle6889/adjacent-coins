@@ -1,4 +1,5 @@
 # adjacent-coins
+
 Consider N coins aligned in a row. Each coin is showing either heads
 or tails. The adjacency of these coins is the number of adjacent pairs
 of coins with the same side facing up.
@@ -20,23 +21,7 @@ For example, given array A consisting of eight numbers, such that:
   A[5] = 0
   A[6] = 1
   A[7] = 1
-----------------
-Don't destroy these
-(0,1)
-(4,5)
-(6,7)
----------------
-Flip the rest...
-  
-------------------
-  A[0] = 1  
-  A[1] = 1  
-  A[2] = 1
-  A[3] = 1  
-  A[4] = 0  
-  A[5] = 0
-  A[6] = 1
-  A[7] = 1
+
 the function should return 5. The initial adjacency is 3, as there are
 three pairs of adjacent coins with the same side facing up, namely (0,
 1), (4, 5) and (6, 7). After reversing the coin represented by A[2],
