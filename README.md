@@ -12,15 +12,15 @@ coins must be reversed). Consecutive elements of array A represent
 consecutive coins in the row. Array A contains only 0s and/or 1s:
 0 represents a coin with heads facing up;
 1 represents a coin with tails facing up.
-For example, given array A consisting of eight numbers, such that:
+For example, given array A consisting of eight numbers, such that:  
   A[0] = 1  
   A[1] = 1  
-  A[2] = 0
+  A[2] = 0  
   A[3] = 1  
   A[4] = 0  
-  A[5] = 0
-  A[6] = 1
-  A[7] = 1
+  A[5] = 0  
+  A[6] = 1  
+  A[7] = 1  
 
 the function should return 5. The initial adjacency is 3, as there are
 three pairs of adjacent coins with the same side facing up, namely (0,
